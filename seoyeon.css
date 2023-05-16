@@ -1,0 +1,58 @@
+html {
+    font-size: 20px;
+    color: white;
+    font-family: 'Nunito', sans-serif;
+}
+body {
+    background-image: url("images/seoyeon.webp");
+    background-position-y: -150px;
+    background-position-x: -50px;
+    background-size: 800px
+}
+#d1{
+    text-align: center;
+    
+}
+
+/* CSS */
+.button-8 {
+    background-color: #e1ecf4;
+    border-radius: 3px;
+    border: 1px solid #09151d;
+    box-shadow: rgba(255, 255, 255, .7) 0 1px 0 0 inset;
+    box-sizing: border-box;
+    color: #0a0a0a;
+    cursor: pointer;
+    display: inline-block;
+    font-family: -apple-system,system-ui,"Segoe UI","Liberation Sans",sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 1.15385;
+    margin: 0;
+    outline: none;
+    padding: 8px .8em;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: baseline;
+    white-space: nowrap;
+  }
+  
+  .button-8:hover,
+  .button-8:focus {
+    background-color: #eaeef1;
+    color: #05111a;
+  }
+  
+  .button-8:focus {
+    box-shadow: 0 0 0 4px rgba(0, 149, 255, .15);
+  }
+  
+  .button-8:active {
+    background-color: #eaf1f7;
+    box-shadow: none;
+    color: #07151f;
+  }
